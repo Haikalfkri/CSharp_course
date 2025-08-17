@@ -10,13 +10,21 @@ namespace objects
             // object can have fields and methods (characteristics and behaviors)
 
             Human human1 = new Human();
+            Human human2 = new Human();
 
             human1.name = "John";
             human1.age = 30;
-            
+
+            human2.name = "Jane";
+            human2.age = 25;
+
             human1.Speak();
             human1.Walk();
             human1.Eat();
+
+            human2.Speak();
+            human2.Walk();
+            human2.Eat();
         }
     }
 
